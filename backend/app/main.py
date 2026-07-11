@@ -5,6 +5,9 @@ from app.database import Base, engine
 from app.routers import bookings, host, listings, search
 
 Base.metadata.create_all(bind=engine)
+from app.seed import seed_database
+
+seed_database()    
 
 app = FastAPI(
     title="Airbnb Clone API",
