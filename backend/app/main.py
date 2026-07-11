@@ -24,7 +24,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-         "https://airbnb-clone-ay20t1ls1-mugdhadeshpande2021-4402s-projects.vercel.app",
+        "https://airbnb-clone-tawny-tau.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
