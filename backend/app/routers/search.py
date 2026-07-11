@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import or_
 
 from app.database import get_db
-import models
+from app import models
 
 router = APIRouter(prefix="/search", tags=["Search"])
 
