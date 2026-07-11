@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://airbnb-clone-s1vi.onrender.com";
 
 export async function getListings(search = "") {
   const url = search
