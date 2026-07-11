@@ -1,5 +1,5 @@
-from database import SessionLocal, Base, engine
-from models import User, Listing, ListingImage
+from app.database import SessionLocal, Base, engine
+from app.models import User, Listing, ListingImage
 
 Base.metadata.create_all(bind=engine)
 
