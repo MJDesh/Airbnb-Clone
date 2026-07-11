@@ -1,7 +1,8 @@
 from sqlalchemy.orm import Session,joinedload
-import models
+
 from sqlalchemy import or_
-import schemas
+
+from app import models, schemas
 
 def get_all_listings(db: Session, search: str | None = None):
 
